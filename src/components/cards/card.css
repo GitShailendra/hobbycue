@@ -1,0 +1,106 @@
+.cards{
+    padding: 8%;
+}
+.card{
+    display: grid;
+      grid-template-rows: auto auto;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+      padding: 10px;
+      row-gap: 1.5rem;
+
+}
+
+.card1{
+    width: 80%;
+    border: 2px solid rgb(221, 221, 221);
+    padding: 2.2rem 12px;
+    border-radius: .3rem;
+
+}
+.people{
+    display: flex;
+    gap: .9rem;
+    align-items: center;
+    font-size: 1.7rem;
+
+}
+/* .people :nth-child(1){
+    color: blueviolet;
+} */
+.people p{
+    font-weight: 600;
+}
+.para{
+    font-size: 1rem;
+    color: rgb(29, 29, 29);
+    margin-top: .5rem;
+}
+.cardbtn button{
+    border-radius: .3rem;
+    margin-top: .6rem;
+    padding: 5px 1.7rem;
+    background-color: transparent;
+    border: 1px solid blueviolet;
+}
+
+/* .card :nth-child(2) .people :nth-child(1){
+    color: rgb(12, 158, 12);
+} */
+/* .card :nth-child(3) .people :nth-child(1){
+    color: tomato;
+} */
+
+#card1:hover{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    
+}
+#card1 .para:hover{
+    color: white;
+}
+#card2:hover {
+    background-color: green;
+    color: white;
+    border: none;
+   
+    
+}
+
+#card2 .para:hover{
+    color: white;
+}
+#card3:hover {
+    background-color: tomato;
+    color: white;
+    border: none;
+   
+    
+}
+
+#card3 .para:hover{
+    color: white;
+}
+#card4:hover {
+    background-color: skyblue;
+    color: white;
+    border: none;
+   
+    
+}
+
+#card4 .para:hover{
+    color: white;
+}
+
+@media (max-width:600px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        margin-top: 550px;
+    }
+    .card1{
+        width: 100%;
+    }
+}

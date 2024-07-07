@@ -1,0 +1,144 @@
+.navbar{
+    padding: 15px 10px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+    
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-logo .box{
+   
+    border: 3px solid blueviolet;
+    width: 30px;
+    height: 30px;
+
+
+}
+.nav-logo h5{
+    margin-left: 5px;
+    color: skyblue;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.nav-logo span{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.navbar .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search input{
+    border: 1px solid blueviolet;
+    border-top-right-radius: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    padding: 5px 10px;
+
+}
+.searchbtn{
+    border: 1px solid blueviolet;
+
+    border-top-left-radius: none;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: white;
+    
+
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.options select{
+    border: 1px solid blueviolet;
+    padding: 8px 12px;
+    border-radius: 5px;
+
+}
+
+.options select option{
+    color: gray;  
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.button .signin{
+    
+    border: 1px solid blueviolet;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.nav__togle{
+    display: none;
+}
+@media (max-width: 600px){
+    .nav__togle{
+        display: block;
+        font-size: 1.5rem;
+    }
+    .options{
+        display: none;
+    }
+    .search input{
+        display: none;
+    }
+    .book{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .searchbtn{
+        background-color: transparent;
+        border: none;
+    }
+    .searchbtn :nth-child(1){
+        color: blueviolet;
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    
+}

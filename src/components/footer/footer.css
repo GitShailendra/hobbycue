@@ -1,0 +1,129 @@
+.footer-main{
+    padding: 5% 8%;
+    background-color: rgb(234, 252, 252);
+    width: 100%;
+}
+.footer-main h1{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.sky{
+    color: skyblue;
+}
+
+.violet{
+    color: blueviolet;
+}
+
+.btn{
+    color: white;
+    background-color: blueviolet;
+    padding: 8px 16px;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 1.4rem;
+}
+.img{
+    margin-top: 2rem;
+    width: 80%;
+}
+.img img{
+    width: 120%;
+    height: 50vh;
+}
+.footer{
+    background-color: #fff;
+    width: 100%;
+    height: 40vh;
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ol li{
+    list-style: none;
+    font-size: .9rem;
+    margin-top: .4rem;
+}
+
+.links{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgb(208, 208, 208);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+.links :nth-child(1){
+    color: black;
+    width: 15px;
+    height: 15px;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.search-btn{
+    margin-top: 35px;
+
+}
+
+.search-btn input{
+    width: 70%;
+    padding: 8px 5px;
+    outline: none;
+    border: 1px solid blueviolet;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-btn  button{
+    padding: 8px 10px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media (max-width:600px){
+    .footer-main{
+       margin-top: 200px;
+       padding: 8% 5%;
+    }
+    .footer-main h1{
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-style: italic;
+        padding: 5% 3%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .list1  h3{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    .list1 h3 ol li{
+        font-size: .8rem;
+
+    }
+    .social{
+        margin-top: 1rem;
+    }
+    #iconn{
+        margin-right: 6rem;
+        margin-top: 1rem;
+    }
+    
+}
